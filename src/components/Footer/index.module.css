@@ -1,0 +1,81 @@
+.footer {
+	background-color: #faf0e4;
+	padding-top: 3rem;
+}
+
+.footerLogo {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	width: 11rem;
+}
+
+.locationImage {
+	width: 2rem;
+	/* height: 2rem; */
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+
+.locationTitle {
+	text-align: left;
+	padding-left: 10px;
+	font-size: 0.95rem;
+	display: inline-block;
+	color: rgba(77, 77, 77, 1);
+}
+
+.locationContent {
+	font-size: 0.9rem;
+	font-weight: 400;
+}
+
+.connectImage {
+	width: 2rem;
+	/* height: 2rem; */
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+
+.connectTitle {
+	text-align: left;
+	padding-left: 10px;
+	font-size: 0.95rem;
+	display: inline-block;
+	color: rgba(77, 77, 77, 1);
+}
+
+.connectContent {
+	font-size: 0.9rem;
+	font-weight: 400;
+}
+
+.linksImage {
+	width: 2rem;
+	/* height: 2rem; */
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+
+.linksTitle {
+	text-align: left;
+	padding-left: 10px;
+	font-size: 0.95rem;
+	display: inline-block;
+	color: rgba(77, 77, 77, 1);
+}
+
+.linksContent {
+	font-size: 0.9rem;
+	font-weight: 400;
+}
+
+.copyrightText {
+	color: rgba(77, 77, 77, 0.8);
+	font-size: 0.8rem;
+	padding-top: 0.6rem;
+	padding-bottom: 1rem;
+	margin: 0;
+}

@@ -1,0 +1,16 @@
+.para {
+	text-align: center;
+	line-height: 1.8;
+	color: #3a3939;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	padding-top: 1.3rem;
+}
+
+.h1Style {
+	text-align: center;
+	font-family: 'bodoni';
+	font-size: 3rem;
+	margin-top: 1.5rem;
+	font-weight: 700;
+}

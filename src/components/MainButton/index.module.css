@@ -1,0 +1,21 @@
+.link,
+.link:visited {
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	font-family: 'Bodoni';
+	font-size: 1.25rem;
+	padding: 0.6rem 2rem;
+	border-radius: 5px;
+	background-color: #021c35;
+	transform: scale(1);
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+
+.link:hover,
+.link:active {
+	text-decoration: none;
+	transform: scale(1.05);
+	cursor: pointer;
+}
