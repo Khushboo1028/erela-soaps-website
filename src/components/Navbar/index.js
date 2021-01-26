@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons';
+import { Link } from 'react-router-dom';
 import { animateScroll as scroll } from 'react-scroll';
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks } from './NavbarElements';
 
@@ -9,7 +10,7 @@ const Navbar = ({ toggle }) => {
 		<IconContext.Provider value={{ color: '#021C35' }}>
 			<Nav>
 				<NavbarContainer>
-					<NavLogo href="/">
+					<NavLogo to="/">
 						<div>Erela Soaps</div>
 					</NavLogo>
 					<MobileIcon onClick={toggle}>
@@ -17,26 +18,22 @@ const Navbar = ({ toggle }) => {
 					</MobileIcon>
 					<NavMenu>
 						<NavItem>
-							<NavLinks href="/">Home</NavLinks>
+							<NavLinks to="/">Home</NavLinks>
 						</NavItem>
 						<NavItem>
-							<NavLinks href="/shop">Shop</NavLinks>
+							<NavLinks to="/shop">Shop</NavLinks>
 						</NavItem>
 
 						<NavItem>
-							<NavLinks href="/blog">Blog</NavLinks>
+							<NavLinks to="/blog">Blog</NavLinks>
 						</NavItem>
 						<NavItem>
-							<NavLinks href="/about">About</NavLinks>
+							<NavLinks to="/about">About</NavLinks>
 						</NavItem>
 						<NavItem>
-							<NavLinks href="/contact">Contact</NavLinks>
+							<NavLinks to="/contact">Contact</NavLinks>
 						</NavItem>
 					</NavMenu>
-
-					{/* <NavBtn>
-						<NavBtnLink to="/signin">Sign In</NavBtnLink>
-					</NavBtn> */}
 				</NavbarContainer>
 			</Nav>
 		</IconContext.Provider>

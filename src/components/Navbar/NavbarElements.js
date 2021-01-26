@@ -48,7 +48,7 @@ export const NavLogo = styled(LinkR)`
 	}
 `;
 
-export const NavLinks = styled(LinkS)`
+export const NavLinks = styled(LinkR)`
     color: #021C35;
     display: flex;
     align-items: center;

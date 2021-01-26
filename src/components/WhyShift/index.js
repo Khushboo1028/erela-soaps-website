@@ -8,24 +8,6 @@ import Fade from 'react-reveal/Fade';
 const WhyShift = () => {
 	return (
 		<div>
-			{/* <div
-				style={{
-					background : '#fafcf8',
-					paddingTop : '3rem',
-					textAlign  : 'center',
-					fontFamily : 'bodoni'
-				}}>
-				<h1 style={{ fontWeight: '600' }}>Why shift to handmade soaps?</h1>
-				<p className={styles.para}>
-					Duis hendrerit accumsan quam, vitae posuere enim. Suspendisse malesuada efficitur ultricies. Aenean
-					aliquam nec lorem ullamcorper congue. Donec sit amet risus et nunc sodales scelerisque eget ac
-					risus. Nulla ac arcu sit amet sapien ultrices tempor eu sit amet magna. Nullam posuere, dui at
-					tempor laoreet, neque massa volutpat sem, id congue tortor arcu sit amet tortor. Maecenas id mauris
-					et mauris pretium sodales et vitae leo. Donec blandit felis faucibus tellus porta, eu gravida velit
-					rutrum. In fermentum eu dui ac commodo. Donec nulla nibh, convallis ac quam et, imperdiet commodo
-					augue. Donec euismod pellentesque elit, a iaculis mi vestibul.
-				</p>
-			</div> */}
 			<Fade>
 				<Row>
 					<Col md={6} style={{ padding: '0' }}>

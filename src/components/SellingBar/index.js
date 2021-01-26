@@ -10,7 +10,7 @@ import soapImage5 from '../../assets/soap-image-5.png';
 import soapImage6 from '../../assets/soap-image-6.png';
 import MainButton from '../MainButton';
 import styles from './index.module.css';
-import Bounce from 'react-reveal/Bounce';
+import Fade from 'react-reveal/Fade';
 
 const SellingBar = () => {
 	return (
@@ -22,7 +22,7 @@ const SellingBar = () => {
 				paddingRight  : '3rem',
 				paddingBottom : '6rem'
 			}}>
-			<Bounce right cascade>
+			<Fade>
 				<Container>
 					<Row>
 						<Col md={3}>
@@ -90,7 +90,7 @@ const SellingBar = () => {
 						</Col>
 					</Row>
 				</Container>
-			</Bounce>
+			</Fade>
 		</div>
 	);
 };

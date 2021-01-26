@@ -1,14 +1,11 @@
 import HomeCarousel from '../components/HomeCarousel';
 import react, { useState } from 'react';
 import { Helmet } from 'react-helmet';
-import Navbar from '../components/Navbar';
-import Sidebar from '../components/Sidebar';
 import MiddleBar from '../components/MiddleBar';
 import SellingBar from '../components/SellingBar';
 import ArticleBar from '../components/ArticleBar';
 import ReviewsCarousel from '../components/ReviewsCarousel';
 import WhyShift from '../components/WhyShift';
-import Footer from '../components/Footer';
 
 const HomePage = () => {
 	const [ isOpen, setIsOpen ] = useState(false);
@@ -27,15 +24,12 @@ const HomePage = () => {
 				/>
 			</Helmet>
 
-			<Sidebar isOpen={isOpen} toggle={toggle} />
-			<Navbar toggle={toggle} />
 			<HomeCarousel />
 			<MiddleBar />
 			<SellingBar />
 			<ArticleBar />
 			<ReviewsCarousel />
 			<WhyShift />
-			<Footer />
 		</div>
 	);
 };
